@@ -65,7 +65,7 @@ namespace Empower_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
-			var order = OrderFactory.CreateOrder("Order 1");
+			var order = OrderFactory.CreateOrder("Order 2 - New Nuget Hamburger");
 			order.Dispatch("Rebecca Kelsall");
 		}
 	}
